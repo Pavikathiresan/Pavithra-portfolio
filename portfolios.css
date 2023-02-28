@@ -1,0 +1,168 @@
+body
+{
+    background-color:rgba(255, 255, 255, 0.995);
+}
+nav
+{
+    display: flex;
+    position: sticky;
+    background-color: black;
+}
+nav ul
+{
+    display: flex;
+    float: left;
+    
+}
+nav ul li 
+{
+    padding: 10px 20px;
+}
+nav ul li a
+{
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.navi
+{
+    text-align: center;
+    position: sticky;
+    top: 0px;
+}
+.leftside
+{
+    width: 300px;
+    background-color: rgb(76, 76, 226);
+
+}
+@keyframes one
+{
+    0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+
+}
+.resume
+{
+    width: 150px;
+    text-align: center;
+    border-radius: 4px;
+    border-style: dashed;
+    border-color: black;
+    background-color: red;
+    animation: one;
+    animation-duration: 15s;
+}
+h1
+{
+    text-align: center;
+    
+}
+h2
+{
+   color: rgb(234, 87, 33);
+   text-align: center;
+}
+h3
+{
+   border-style: solid;
+   border-color: black;
+   border-radius: 5px;
+   width: 100px;
+   background-color: rgb(240, 230, 32);
+   color: rgb(31, 68, 233);
+   text-align: center;
+   margin-left: 700px;
+}
+.hello
+{
+   font-size: 40px;
+}
+.about,.head,.proj,.ach1,.titl
+{
+   border-style: solid;
+   border-color: black;
+   border-radius: 5px;
+   width: 100%;
+   background-color: rgb(84, 82, 81);
+   color: white;
+}
+.content
+{
+    color: rgba(0, 0, 0, 0.664);
+    font-size: 30px;
+    display: flex;
+    vertical-align: middle;
+}
+.parent
+{
+    display: flex;
+    flex:space-around;
+    padding: 20px;
+}
+.prof
+{
+    background-color: rgb(219, 199, 86);
+}
+.img
+{
+    margin-left: 200px;
+    width: 25%;
+    margin-left: 400px;
+}
+.content
+{
+  width: 65%;
+  margin-right: 100px;
+}
+.comb
+{
+    display:block;
+    
+    padding: 20px;
+}
+.soft
+{
+    display: inline-block;
+    margin-left: 180px;
+    font-size: 20px;
+    width: 35%;
+    text-align: center;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(73, 72, 72);
+}
+.pro
+{
+    display: flex;
+    flex:space-around;
+    padding: 20px;
+}
+.start
+{
+    font-size: 20px;
+    display: flex;
+    vertical-align: middle;
+}
+.ach2
+{
+    text align-items: left;
+    font-size:20px;
+}
+b
+{
+    color: rgb(234, 87, 33);
+    font-size: 25px;
+}
+.last
+{
+    width: 100%;
+    background-color: grey;
+    color: azure;
+    text-align: center;
+}
